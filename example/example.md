@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) <YOUR_COPYRIGHT_HOLDER>
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -19,5 +19,5 @@ git init -b main
 ## Add
 
 ```bash
-gg dna add dna_vscode
+gg dna add dna_template
 ```

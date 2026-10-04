@@ -1,31 +1,35 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# dna_vscode
+# dna_template
 
-The DNA layer for the editor: shared VS Code settings and recommended
-extensions.
+Template for new DNA repos. Copy it, rename it, and replace the
+placeholders.
+
+## Create a new DNA repo from this template
+
+1. Copy the repo and replace `dna_template` / `dna-template` /
+   `dnaTemplateVersion` in `pubspec.yaml`, `package.json`, `README.md`,
+   `example/`, `lib/src/` and `test/` (including the file names)
+2. Set `dnaCopyrightHolder` and `dnaCompany` in `dna/_vars.json`
+3. Rename `dna/doc/guides/topic-guide.md` and
+   `dna/dot-claude/skills/topic/` to your topic and fill in the TODOs
+4. Replace the example files in `dna/` with your own
+5. Reset `CHANGELOG.md`, run `dart test`, commit
 
 ## Guides
 
-- `dna/doc/guides/vscode-guide.md` — what is configured, how to add a
-  setting or extension, and how a consumer overrides one
+- `dna/doc/guides/topic-guide.md` — TODO: what is configured and how to
+  extend or override it
 
 ## Skills
 
-- `/vscode` — compares installed extensions against the recommendations
-  and checks that `settings.json` parses
-
-## Configuration
-
-- `dna/dot-vscode/settings.json` — formatting, rulers, coverage gutters,
-  the license header template
-- `dna/dot-vscode/extensions.json` — the recommended extensions
+- `/topic` — TODO: what the skill does
 
 ## Layers
 
@@ -35,15 +39,15 @@ other layers by the consuming repo.
 ## Variables
 
 - `dnaCopyrightHolder` — the name in the license header of every file
-- `dnaCompany` — the author name the license header template inserts
+- `dnaCompany` — the company name
 
 ## Usage
 
 Declare it as a dev-dependency and initialize once:
 
 ```bash
-pnpm add -D @ggdna/dna-vscode   # TypeScript projects
-dart pub add dev:dna_vscode     # Dart projects
+pnpm add -D @ggdna/dna-template   # TypeScript projects
+dart pub add dev:dna_template     # Dart projects
 helix init
 ```
 

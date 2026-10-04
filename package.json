@@ -1,19 +1,19 @@
 {
-  "name": "@ggdna/dna-vscode",
-  "version": "0.2.2",
-  "description": "DNA layer: shared VS Code settings and recommended extensions",
+  "name": "@ggdna/dna-template",
+  "version": "0.0.0",
+  "description": "DNA layer: shared template for new topics",
   "keywords": [
     "dna",
     "helix",
     "conventions",
     "scaffolding"
   ],
-  "homepage": "https://github.com/ggdna/dna_vscode",
-  "bugs": "https://github.com/ggdna/dna_vscode/issues",
+  "homepage": "https://github.com/ggdna/dna_template",
+  "bugs": "https://github.com/ggdna/dna_template/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggdna/dna_vscode.git"
+    "url": "git+https://github.com/ggdna/dna_template.git"
   },
   "type": "module",
   "files": [
