@@ -2,6 +2,7 @@ name: dna_template
 description: "DNA layer: shared template for new topics"
 version: 0.0.0
 repository: https://github.com/ggdna/dna_template.git
+publish_to: none # Remove publish to pub.dev wanted. In package.json, set also private to true.
 
 environment:
   sdk: ">=3.13.0 <4.0.0"
