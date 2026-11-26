@@ -15,10 +15,10 @@ found in the LICENSE file in the root of this package.
 
 Read `doc/guides/topic-guide.md` and follow it.
 
-## 1. Check
+## @check 1. Check
 
 TODO: Describe what to inspect.
 
-## 2. Report before fixing
+## @report 2. Report before fixing
 
 List the findings first. Fix only what the user confirms.
