@@ -13,7 +13,7 @@ found in the LICENSE file in the root of this package.
 
 # Topic
 
-Read `doc/guides/topic-guide.md` and follow it.
+Read `doc/en/guides/topic-guide.md` and follow it.
 
 ## 1. Check
 

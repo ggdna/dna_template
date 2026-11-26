@@ -17,15 +17,21 @@ placeholders.
    `dnaTemplateVersion` in `pubspec.yaml`, `package.json`, `README.md`,
    `example/`, `lib/src/` and `test/` (including the file names)
 2. Set `dnaCopyrightHolder` and `dnaCompany` in `dna/_vars.json`
-3. Rename `dna/doc/guides/topic-guide.md` and
+3. Rename `dna/doc/en/guides/topic-guide.md` and
    `dna/dot-claude/skills/topic/` to your topic and fill in the TODOs
 4. Replace the example files in `dna/` with your own
 5. Reset `CHANGELOG.md`, run `dart test`, commit
 
 ## Guides
 
-- `dna/doc/guides/topic-guide.md` — TODO: what is configured and how to
+- `dna/doc/en/guides/topic-guide.md` — TODO: what is configured and how to
   extend or override it
+
+Every file of `dna/doc/en/` also ships in German and Farsi, with the
+same name:
+
+- `dna/doc/de/guides/`
+- `dna/doc/fa/guides/`
 
 ## Skills
 
