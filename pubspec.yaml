@@ -1,13 +1,13 @@
 name: dna_template
 description: "DNA layer: shared template for new topics"
-version: 0.0.0
+version: 0.0.1
 repository: https://github.com/ggdna/dna_template.git
-publish_to: none # Remove publish to pub.dev wanted. In package.json, set also private to true.
+publish_to: none
 
 environment:
   sdk: ">=3.13.0 <4.0.0"
 
 dev_dependencies:
-  helix: ^1.9.0
+  helix: ^1.18.0
   lints: ^6.1.0
   test: ^1.32.0

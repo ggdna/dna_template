@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "DNA layer: shared template for new topics",
   "keywords": [
