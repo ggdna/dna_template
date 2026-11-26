@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.17.0",
+      "resolvedVersion": "1.18.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x34d726edafe13ba6"
+      "hash": "0x3027785552d690b5"
     }
   ],
   "claude": {
@@ -23,21 +23,29 @@
     "claudeMdFromDna": false,
     "blockHash": null
   },
-  "baseVersion": "1.17.0",
+  "baseVersion": "1.18.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0x28fb02f5e68f41fe",
   "instances": [
     {
       "path": ".claude/skills/topic/SKILL.md",
-      "hash": "0x1d49cae1cef0a934"
+      "hash": "0xf81b723e6384b211"
     },
     {
       "path": ".replace-remove-from-dna",
       "hash": "0xca9871c5856573ee"
     },
     {
-      "path": "doc/guides/topic-guide.md",
+      "path": "doc/de/guides/topic-guide.md",
+      "hash": "0x35f15637d2d427c3"
+    },
+    {
+      "path": "doc/en/guides/topic-guide.md",
       "hash": "0xce032f3ba7b846f1"
+    },
+    {
+      "path": "doc/fa/guides/topic-guide.md",
+      "hash": "0x5e137684b6897530"
     }
   ]
 }
