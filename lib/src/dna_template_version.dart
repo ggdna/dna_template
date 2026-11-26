@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_template` package.
-const String dnaTemplateVersion = '0.0.1';
+const String dnaTemplateVersion = '0.1.0';
